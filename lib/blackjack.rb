@@ -34,7 +34,7 @@ end
 def hit?(card_total)
 
   end
-end
+
 
    
     
