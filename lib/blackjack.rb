@@ -35,7 +35,6 @@ answer = get_user_input
 card_total
 if answer == "h"
 deal_card + card_total
-
 elsif answer == "s"
 card_total
 else invalid_command
