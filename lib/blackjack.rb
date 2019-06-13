@@ -27,25 +27,12 @@ puts "Sorry, you hit #{card_total}. Thanks for playing!"
 end
 
 def initial_round
-card_one = deal_card
-card_two = deal_card
-card_total=card_one+card_two
-display_card_total(card_total)
-card_total
+deal_card + deal_card
+
 end
 
 def hit?(card_total)
-  prompt_user
-  input=get_user_input
-  if input=="h"
-    card_total += deal_card
-    card_total
-  elsif input=="s"
-    card_total
-  else input != "h" && user_input != "s"
-   invalid_command
-    prompt_user
-    card_total
+
   end
 end
 
