@@ -39,6 +39,7 @@ elsif answer == "s"
 card_total
 else 
   invalid_command
+  card_total
   end
 end
 
