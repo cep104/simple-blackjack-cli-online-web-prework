@@ -31,7 +31,7 @@ deal_card + deal_card
 
 end
 
-def hit?(card_total)
+def hit?
 
   end
 
