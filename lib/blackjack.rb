@@ -43,7 +43,7 @@ else
 end
 
 def invalid_command
- "Please enter a valid command"
+ puts "Please enter a valid command"
 end
 
 #####################################################
