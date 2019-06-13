@@ -33,8 +33,13 @@ def hit?(card_total)
 prompt_user
 get_user_input
 card_total
+if get_user_input == "h"
+deal_card + card_total
 
+elsif get_user_input == "s"
+card_total
   end
+end
 
 def invalid_command
   puts "Please enter a valid command' when called"
