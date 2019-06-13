@@ -1,6 +1,5 @@
 def welcome
   puts "Welcome to the Blackjack Table"
-
 end
 
 def deal_card
@@ -28,7 +27,7 @@ end
 
 def initial_round
   
-  # deal_card + deal_card
+  deal_card + deal_card
 
 end
 
