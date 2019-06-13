@@ -37,7 +37,7 @@ if answer == "h"
 deal_card + card_total
 elsif answer == "s"
 card_total
-else answer !="h" || !="s"
+else 
   invalid_command
   end
 end
