@@ -24,8 +24,9 @@ puts "Sorry, you hit #{card_total}. Thanks for playing!"
 end
 
 def initial_round
-  card = deal_card + deal_card
-  display_card_total(card)
+  sum = deal_card + deal_card
+  display_card_total(sum)
+  sum
 end
 
 def hit?
